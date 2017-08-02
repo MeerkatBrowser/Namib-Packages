@@ -1,2 +1,9 @@
 upload/
 *tar.gz
+calamares/
+ckbcomp/
+mkinitcpio-openswap/
+package-query/
+pamac-aur/
+ultra-flat-icon-blue/
+yaourt/
