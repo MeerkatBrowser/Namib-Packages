@@ -23,6 +23,14 @@ function cloneall() {
     git clone https://aur.archlinux.org/yaourt.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/ultra-flat-icons-blue.git
+    git clone https://aur.archlinux.org/mkinitcpio-openswap.git
+    git clone https://aur.archlinux.org/ckbcomp.git
+    git clone https://aur.archlinux.org/package-query.git
+
+    #Get calamares package
+    get_package "calamares" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Calamares/master/pkg/PKGBUILD" \
+""
 }
 
 function get_package() {
