@@ -26,6 +26,9 @@ function cloneall() {
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
     git clone https://aur.archlinux.org/ckbcomp.git
     git clone https://aur.archlinux.org/package-query.git
+	git clone https://aur.archlinux.org/gnome-mpv.git
+	git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
+	
 
     #Get calamares package
     get_package "calamares" \
