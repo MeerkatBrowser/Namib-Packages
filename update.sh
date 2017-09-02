@@ -32,7 +32,12 @@ function cloneall() {
     #Get calamares package
     get_package "calamares" \
     "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Calamares/master/pkg/PKGBUILD" \
-""
+    ""
+
+    #Get Namib Wallpapers Package
+    get_package "namib-wallpapers" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/namib-wallpapers.install"
 }
 
 function get_package() {
