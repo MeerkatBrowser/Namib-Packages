@@ -38,6 +38,11 @@ function cloneall() {
     get_package "namib-wallpapers" \
     "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/namib-wallpapers.install"
+    
+    #Get namib-config-system
+    get_package "namib-config-system" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/namib-config-system.install"
 }
 
 function get_package() {
