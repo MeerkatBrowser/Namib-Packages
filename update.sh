@@ -21,13 +21,14 @@ function cleanup() {
 
 function cloneall() {
     git clone https://github.com/MeerkatBrowser/namib-keyring
+    git clone https://github.com/MeerkatBrowser/namib-mirrorlist
     git clone https://aur.archlinux.org/yaourt.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
     git clone https://aur.archlinux.org/ckbcomp.git
     git clone https://aur.archlinux.org/package-query.git
-	git clone https://aur.archlinux.org/gnome-mpv.git
-	git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
+    git clone https://aur.archlinux.org/gnome-mpv.git
+    git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
 	
 
     #Get calamares package
