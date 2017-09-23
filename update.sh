@@ -20,19 +20,37 @@ function cleanup() {
 }
 
 function cloneall() {
+    git clone https://github.com/MeerkatBrowser/namib-keyring
+    git clone https://github.com/MeerkatBrowser/namib-mirrorlist
     git clone https://aur.archlinux.org/yaourt.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
     git clone https://aur.archlinux.org/ckbcomp.git
     git clone https://aur.archlinux.org/package-query.git
-	git clone https://aur.archlinux.org/gnome-mpv.git
-	git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
+    git clone https://aur.archlinux.org/gnome-mpv.git
+    git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
 	
 
     #Get calamares package
     get_package "calamares" \
     "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Calamares/master/pkg/PKGBUILD" \
-""
+    ""
+
+    #Get Namib Wallpapers Package
+    get_package "namib-wallpapers" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/namib-wallpapers.install"
+    
+    #Get namib-config-system
+    get_package "namib-config-system" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/namib-config-system.install"
+    
+    #Get namib-base-skel package
+    get_package "namib-base-skel" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/namib-base-skel.install"
+
 }
 
 function get_package() {
