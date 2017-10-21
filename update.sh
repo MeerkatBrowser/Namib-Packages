@@ -22,6 +22,7 @@ function cleanup() {
 function cloneall() {
     git clone https://github.com/MeerkatBrowser/namib-keyring
     git clone https://github.com/MeerkatBrowser/namib-mirrorlist
+    git clone https://github.com/MeerkatBrowser/namib-settings-manager
     git clone https://aur.archlinux.org/yaourt.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
