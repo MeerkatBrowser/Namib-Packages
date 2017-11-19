@@ -25,7 +25,6 @@ function cloneall() {
     git clone https://github.com/MeerkatBrowser/namib-settings-manager
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
-    git clone https://github.com/MeerkatBrowser/namib-welcome
     git clone https://github.com/MeerkatBrowser/ckbcomp
     git clone https://aur.archlinux.org/yaourt.git
     git clone https://aur.archlinux.org/pamac-aur.git
