@@ -25,7 +25,7 @@ function cloneall() {
     git clone https://github.com/MeerkatBrowser/namib-settings-manager
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
-    git clone -b testing https://github.com/MeerkatBrowser/ckbcomp
+    git clone https://github.com/MeerkatBrowser/ckbcomp
     git clone https://aur.archlinux.org/trizen.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
@@ -42,22 +42,22 @@ function cloneall() {
 
     #Get Namib Wallpapers Package
     get_package "namib-wallpapers" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/testing/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/PKGBUILD" \
     
     #Get namib-config-system
     get_package "namib-config-system" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/testing/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/testing/pkg/namib-config-system.install"
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/namib-config-system.install"
     
     #Get namib-base-skel package
     get_package "namib-base-skel" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/testing/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/testing/pkg/namib-base-skel.install"
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/namib-base-skel.install"
     
     #Get namib-mate-settings package
     get_package "namib-mate-settings" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/testing/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/testing/pkg/namib-mate-settings.install"
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/namib-mate-settings.install"
 
 }
 
