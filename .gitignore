@@ -6,7 +6,7 @@ mkinitcpio-openswap/
 package-query/
 pamac-aur/
 ultra-flat-icons-blue/
-yaourt/
+trizen/
 gnome-mpv/
 rhythmbox-plugin-tray-icon-git/
 namib-wallpapers/
@@ -14,6 +14,7 @@ namib-config-system/
 namib-base-skel/
 namib-keyring/
 namib-mirrorlist/
+namib-mate-settings/
 brisk-menu/
 namib-settings-manager/
 nhwd/

@@ -26,7 +26,7 @@ function cloneall() {
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
     git clone https://github.com/MeerkatBrowser/ckbcomp
-    git clone https://aur.archlinux.org/yaourt.git
+    git clone https://aur.archlinux.org/trizen.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
     git clone https://aur.archlinux.org/package-query.git
@@ -43,7 +43,6 @@ function cloneall() {
     #Get Namib Wallpapers Package
     get_package "namib-wallpapers" \
     "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/namib-wallpapers.install"
     
     #Get namib-config-system
     get_package "namib-config-system" \
@@ -54,6 +53,11 @@ function cloneall() {
     get_package "namib-base-skel" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/namib-base-skel.install"
+    
+    #Get namib-mate-settings package
+    get_package "namib-mate-settings" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/namib-mate-settings.install"
 
 }
 
