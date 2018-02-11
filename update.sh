@@ -59,6 +59,11 @@ function cloneall() {
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/namib-mate-settings.install"
 
+	#Get namib-gnome-settings package
+    get_package "namib-gnome-settings" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/namib-gnome-settings.install"
+
 }
 
 function get_package() {
