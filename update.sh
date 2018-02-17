@@ -34,6 +34,7 @@ function cloneall() {
     git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
     git clone https://aur.archlinux.org/brisk-menu.git
 	git clone https://aur.archlinux.org/numix-kde-theme-git.git
+	git clone https://aur.archlinux.org/numix-circle-icon-theme-git.git
 	git clone https://aur.archlinux.org/pamac-tray-appindicator.git
 
 
