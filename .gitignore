@@ -5,6 +5,7 @@ ckbcomp/
 mkinitcpio-openswap/
 package-query/
 pamac-aur/
+pamac-tray-appindicator/
 ultra-flat-icons-blue/
 trizen/
 gnome-mpv/
@@ -17,7 +18,9 @@ namib-mirrorlist/
 namib-mate-settings/
 namib-gnome-settings/
 namib-xfce-settings/
+namib-kde-settings/
 brisk-menu/
+numix-kde-theme-git
 namib-settings-manager/
 nhwd/
 nhwd-db/

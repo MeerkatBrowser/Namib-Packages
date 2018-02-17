@@ -32,7 +32,9 @@ function cloneall() {
     git clone https://aur.archlinux.org/package-query.git
     git clone https://aur.archlinux.org/gnome-mpv.git
     git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
-    git clone https://aur.archlinux.org/brisk-menu.git	
+    git clone https://aur.archlinux.org/brisk-menu.git
+	git clone https://aur.archlinux.org/numix-kde-theme-git.git
+	git clone https://aur.archlinux.org/pamac-tray-appindicator.git
 
 
     #Get calamares package
@@ -64,10 +66,15 @@ function cloneall() {
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/namib-gnome-settings.install"
 
-	#Get namib-xfcee-settings package
+	#Get namib-xfce-settings package
     get_package "namib-xfce-settings" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-xfce-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-xfce-settings/master/pkg/namib-xfce-settings.install"
+
+	#Get namib-kde-settings package
+    get_package "namib-kde-settings" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/namib-kde-settings.install"
 
 }
 
