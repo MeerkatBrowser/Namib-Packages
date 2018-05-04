@@ -30,7 +30,6 @@ function cloneall() {
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
     git clone https://aur.archlinux.org/package-query.git
-    git clone https://aur.archlinux.org/gnome-mpv.git
     git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
     git clone https://aur.archlinux.org/brisk-menu.git
 	git clone https://aur.archlinux.org/numix-kde-theme-git.git
@@ -78,6 +77,9 @@ function cloneall() {
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/namib-kde-settings.install"
 
+	#Get namib-welcome package
+	get_package "namib-welcome" \
+    "https://raw.githubusercontent.com/MeerkatBrowser/namib-welcome/master/pkg/PKGBUILD"
 }
 
 function get_package() {
