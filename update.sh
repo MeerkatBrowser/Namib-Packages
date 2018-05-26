@@ -53,7 +53,8 @@ function cloneall() {
     
     #Get namib-base-skel package
     get_package "namib-base-skel" \
-    "https://raw.githubusercontent.com/namiblinux/namib-desktop-settings/master/pkg/PKGBUILD"
+    "https://raw.githubusercontent.com/namiblinux/namib-desktop-settings/master/pkg/PKGBUILD" \
+	"https://raw.githubusercontent.com/namiblinux/namib-desktop-settings/master/pkg/namib-base-skel.install"
     
     #Get namib-mate-settings package
     get_package "namib-mate-settings" \
