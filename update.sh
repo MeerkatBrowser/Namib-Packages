@@ -32,16 +32,15 @@ function cloneall() {
     git clone https://aur.archlinux.org/package-query.git
     git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
     git clone https://aur.archlinux.org/brisk-menu.git
-	git clone https://aur.archlinux.org/numix-kde-theme-git.git
-	git clone https://aur.archlinux.org/numix-circle-icon-theme-git.git
-	git clone https://aur.archlinux.org/numix-icon-theme-git.git
-	git clone https://aur.archlinux.org/pamac-tray-appindicator.git
+    git clone https://aur.archlinux.org/numix-kde-theme-git.git
+    git clone https://aur.archlinux.org/numix-circle-icon-theme-git.git
+    git clone https://aur.archlinux.org/numix-icon-theme-git.git
+    git clone https://aur.archlinux.org/pamac-tray-appindicator.git
 
 
     #Get calamares package
     get_package "calamares" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Calamares/master/pkg/PKGBUILD" \
-    ""
+    "https://raw.githubusercontent.com/namiblinux/Namib-Calamares/master/pkg/PKGBUILD"
 
     #Get Namib Wallpapers Package
     get_package "namib-wallpapers" \
@@ -54,31 +53,30 @@ function cloneall() {
     
     #Get namib-base-skel package
     get_package "namib-base-skel" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-desktop-settings/master/pkg/namib-base-skel.install"
+    "https://raw.githubusercontent.com/namiblinux/namib-desktop-settings/master/pkg/PKGBUILD"
     
     #Get namib-mate-settings package
     get_package "namib-mate-settings" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/namib-mate-settings.install"
 
-	#Get namib-gnome-settings package
+    #Get namib-gnome-settings package
     get_package "namib-gnome-settings" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/namib-gnome-settings.install"
 
-	#Get namib-xfce-settings package
+    #Get namib-xfce-settings package
     get_package "namib-xfce-settings" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-xfce-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-xfce-settings/master/pkg/namib-xfce-settings.install"
 
-	#Get namib-kde-settings package
+    #Get namib-kde-settings package
     get_package "namib-kde-settings" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/namib-kde-settings.install"
 
-	#Get namib-welcome package
-	get_package "namib-welcome" \
+    #Get namib-welcome package
+    get_package "namib-welcome" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-welcome/master/pkg/PKGBUILD"
 }
 
