@@ -26,6 +26,7 @@ function cloneall() {
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
     git clone https://github.com/MeerkatBrowser/ckbcomp
+    git clone https://github.com/namiblinux/Materia-Namib-Theme
     git clone https://aur.archlinux.org/trizen.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
@@ -36,6 +37,8 @@ function cloneall() {
     git clone https://aur.archlinux.org/numix-circle-icon-theme-git.git
     git clone https://aur.archlinux.org/numix-icon-theme-git.git
     git clone https://aur.archlinux.org/pamac-tray-appindicator.git
+    git clone https://aur.archlinux.org/b43-firmware.git
+    git clone https://aur.archlinux.org/timeshift.git
 
 
     #Get calamares package
@@ -48,8 +51,8 @@ function cloneall() {
     
     #Get namib-config-system
     get_package "namib-config-system" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Config-System/master/pkg/namib-config-system.install"
+    "https://raw.githubusercontent.com/namiblinux/Namib-Config-System/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/Namib-Config-System/master/pkg/namib-config-system.install"
     
     #Get namib-base-skel package
     get_package "namib-base-skel" \
@@ -58,8 +61,8 @@ function cloneall() {
     
     #Get namib-mate-settings package
     get_package "namib-mate-settings" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-mate-settings/master/pkg/namib-mate-settings.install"
+    "https://raw.githubusercontent.com/namiblinux/namib-mate-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/namib-mate-settings/master/pkg/namib-mate-settings.install"
 
     #Get namib-gnome-settings package
     get_package "namib-gnome-settings" \
