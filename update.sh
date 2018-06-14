@@ -26,7 +26,7 @@ function cloneall() {
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
     git clone https://github.com/MeerkatBrowser/ckbcomp
-    git clone https://github.com/namiblinux/Materia-Namib-Theme
+    git clone https://github.com/namiblinux/materia-namib-theme
     git clone https://aur.archlinux.org/trizen.git
     git clone https://aur.archlinux.org/pamac-aur.git
     git clone https://aur.archlinux.org/mkinitcpio-openswap.git
