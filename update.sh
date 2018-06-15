@@ -39,6 +39,7 @@ function cloneall() {
     git clone https://aur.archlinux.org/pamac-tray-appindicator.git
     git clone https://aur.archlinux.org/b43-firmware.git
     git clone https://aur.archlinux.org/timeshift.git
+    git clone https://aur.archlinux.org/xcursor-breeze.git
 
 
     #Get calamares package
