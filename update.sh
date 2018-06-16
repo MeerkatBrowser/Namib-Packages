@@ -67,8 +67,8 @@ function cloneall() {
 
     #Get namib-gnome-settings package
     get_package "namib-gnome-settings" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-gnome-settings/master/pkg/namib-gnome-settings.install"
+    "https://raw.githubusercontent.com/namiblinux/namib-gnome-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/namib-gnome-settings/master/pkg/namib-gnome-settings.install"
 
     #Get namib-xfce-settings package
     get_package "namib-xfce-settings" \
