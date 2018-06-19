@@ -80,8 +80,13 @@ function cloneall() {
 
     #Get namib-kde-settings package
     get_package "namib-kde-settings" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/PKGBUILD" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-kde-settings/master/pkg/namib-kde-settings.install"
+    "https://raw.githubusercontent.com/namiblinux/namib-kde-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/namib-kde-settings/master/pkg/namib-kde-settings.install"
+
+    #Get namib-budgie-settings package
+    get_package "namib-budgie-settings" \
+    "https://raw.githubusercontent.com/namiblinux/namib-budgie-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/namib-budgie-settings/master/pkg/namib-budgie-settings.install"
 
     #Get namib-welcome package
     get_package "namib-welcome" \
