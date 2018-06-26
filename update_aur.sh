@@ -43,16 +43,14 @@ function cloneall() {
     git clone https://aur.archlinux.org/whalebird-bin.git
     git clone https://aur.archlinux.org/skypeforlinux-stable-bin.git
     git clone https://aur.archlinux.org/spotify.git
-    git clone https://aur.archlinux.org/lutris.git
     git clone https://aur.archlinux.org/gyazo.git
     git clone https://aur.archlinux.org/google-chrome.git
     git clone https://aur.archlinux.org/dropbox.git
     git clone https://aur.archlinux.org/bitwarden.git
-    git clone https://aur.archlinux.org/visual-studio-code-bin.git
     git clone https://aur.archlinux.org/discord.git
-    git clone https://aur.archlinux.org/android-studio.git
     git clone https://aur.archlinux.org/slack-desktop.git
-    git clone https://aur.archlinux.org/rambox.git
+    git clone https://aur.archlinux.org/rambox-bin.git
+    git clone https://aur.archlinux.org/xplayer-plparser.git
 }
 
 function get_package() {
