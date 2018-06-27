@@ -73,6 +73,11 @@ function cloneall() {
     "https://raw.githubusercontent.com/namiblinux/namib-budgie-settings/master/pkg/PKGBUILD" \
     "https://raw.githubusercontent.com/namiblinux/namib-budgie-settings/master/pkg/namib-budgie-settings.install"
 
+    #Get namib-cinnamon-settings package
+    get_package "namib-cinnamon-settings" \
+    "https://raw.githubusercontent.com/namiblinux/namib-cinnamon-settings/master/pkg/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/namib-cinnamon-settings/master/pkg/namib-cinnamon-settings.install"
+
     #Get namib-welcome package
     get_package "namib-welcome" \
     "https://raw.githubusercontent.com/MeerkatBrowser/namib-welcome/master/pkg/PKGBUILD"
