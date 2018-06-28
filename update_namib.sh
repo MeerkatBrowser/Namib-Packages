@@ -22,7 +22,7 @@ function cleanup() {
 function cloneall() {
     git clone https://github.com/namiblinux/namib-keyring
     git clone https://github.com/namiblinux/namib-mirrorlist
-    git clone https://github.com/MeerkatBrowser/namib-settings-manager
+    git clone https://github.com/namiblinux/namib-settings-manager
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
     git clone https://github.com/namiblinux/ckbcomp
