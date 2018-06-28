@@ -20,12 +20,12 @@ function cleanup() {
 }
 
 function cloneall() {
-    git clone https://github.com/MeerkatBrowser/namib-keyring
+    git clone https://github.com/namiblinux/namib-keyring
     git clone https://github.com/namiblinux/namib-mirrorlist
     git clone https://github.com/MeerkatBrowser/namib-settings-manager
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
-    git clone https://github.com/MeerkatBrowser/ckbcomp
+    git clone https://github.com/namiblinux/ckbcomp
     git clone https://github.com/namiblinux/materia-namib-theme
     git clone https://github.com/namiblinux/materia-namib-kde
     git clone https://github.com/namiblinux/gnome-shell-extension-arc-menu-git
@@ -36,7 +36,7 @@ function cloneall() {
 
     #Get Namib Wallpapers Package
     get_package "namib-wallpapers" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/Namib-Wallpapers/master/PKGBUILD" \
+    "https://raw.githubusercontent.com/namiblinux/Namib-Wallpapers/master/PKGBUILD" \
     
     #Get namib-config-system
     get_package "namib-config-system" \
@@ -80,7 +80,7 @@ function cloneall() {
 
     #Get namib-welcome package
     get_package "namib-welcome" \
-    "https://raw.githubusercontent.com/MeerkatBrowser/namib-welcome/master/pkg/PKGBUILD"
+    "https://raw.githubusercontent.com/namiblinux/namib-welcome/master/pkg/PKGBUILD"
 }
 
 function get_package() {
