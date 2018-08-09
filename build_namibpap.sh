@@ -28,7 +28,7 @@ function make_loop() {
             continue;
         fi
 	    cd $dir
-	    makepkg -f -s -c
+	    makepkg -f -s -c --noconfirm
         copyto_upload_dir
         echo "makepkg from "$dir" finished"
         cd ..
