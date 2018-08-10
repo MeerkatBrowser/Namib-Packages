@@ -26,14 +26,12 @@ function cloneall() {
     git clone https://aur.archlinux.org/package-query.git
     git clone https://aur.archlinux.org/rhythmbox-plugin-tray-icon-git.git
     git clone https://aur.archlinux.org/brisk-menu.git
-    git clone https://aur.archlinux.org/numix-kde-theme-git.git
-    git clone https://aur.archlinux.org/numix-circle-icon-theme-git.git
-    git clone https://aur.archlinux.org/numix-icon-theme-git.git
     git clone https://aur.archlinux.org/pamac-tray-appindicator.git
     git clone https://aur.archlinux.org/b43-firmware.git
     git clone https://aur.archlinux.org/timeshift.git
     git clone https://aur.archlinux.org/xcursor-breeze.git
     git clone https://aur.archlinux.org/gnome-shell-extension-dash-to-panel.git
+    git clone https://aur.archlinux.org/gnome-shell-extension-arc-menu-git.git
     git clone https://aur.archlinux.org/pix.git
     git clone https://aur.archlinux.org/xed.git
     git clone https://aur.archlinux.org/xviewer.git
@@ -46,8 +44,9 @@ function cloneall() {
     git clone https://aur.archlinux.org/gyazo.git
     git clone https://aur.archlinux.org/google-chrome.git
     git clone https://aur.archlinux.org/dropbox.git
-    git clone https://aur.archlinux.org/bitwarden.git
+    git clone https://aur.archlinux.org/bitwarden-bin.git
     git clone https://aur.archlinux.org/discord.git
+    git clone https://aur.archlinux.org/libc++.git
     git clone https://aur.archlinux.org/slack-desktop.git
     git clone https://aur.archlinux.org/rambox-bin.git
     git clone https://aur.archlinux.org/xplayer-plparser.git

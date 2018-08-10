@@ -28,7 +28,6 @@ function cloneall() {
     git clone https://github.com/namiblinux/ckbcomp
     git clone https://github.com/namiblinux/materia-namib-theme
     git clone https://github.com/namiblinux/materia-namib-kde
-    git clone https://github.com/namiblinux/gnome-shell-extension-arc-menu-git
 
     #Get calamares package
     get_package "calamares" \
