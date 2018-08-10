@@ -31,7 +31,7 @@ gnome-shell-extension-arc-menu-git/
 gnome-shell-extension-dash-to-panel/
 materia-namib-kde/
 namib-budgie-settings/
-bitwarden/
+bitwarden-bin/
 discord/
 dropbox/
 google-chrome/
@@ -49,3 +49,4 @@ xviewer-plugins/
 xviewer/
 xplayer-plparser/
 namib-cinnamon-settings/
+libc++/
