@@ -50,6 +50,7 @@ function cloneall() {
     git clone https://aur.archlinux.org/slack-desktop.git
     git clone https://aur.archlinux.org/rambox-bin.git
     git clone https://aur.archlinux.org/xplayer-plparser.git
+    git clone https://aur.archlinux.org/wine-stable.git
 }
 
 function get_package() {
