@@ -22,7 +22,6 @@ function cleanup() {
 function cloneall() {
     git clone https://github.com/namiblinux/namib-keyring
     git clone https://github.com/namiblinux/namib-mirrorlist
-    git clone https://github.com/namiblinux/namib-settings-manager
     git clone https://github.com/MeerkatBrowser/nhwd
     git clone https://github.com/MeerkatBrowser/nhwd-db
     git clone https://github.com/namiblinux/ckbcomp
@@ -80,6 +79,10 @@ function cloneall() {
     #Get namib-welcome package
     get_package "namib-welcome" \
     "https://raw.githubusercontent.com/namiblinux/namib-welcome/master/pkg/PKGBUILD"
+
+	#Get namib-settings-manager
+    get_package "namib-settings-manager" \
+    "https://raw.githubusercontent.com/namiblinux/namib-settings-manager/master/pkg/PKGBUILD"
 }
 
 function get_package() {
